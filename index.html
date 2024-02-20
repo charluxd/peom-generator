@@ -4,30 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <h1>AI Poem Generator</h1>
+    <main class="container">
+      <h1>AI Poem Generator</h1>
 
-    <section>
-      <form>
-        <input
-          type="text"
-          name="enter-poem-topic"
-          placeholder="Enter poem topic"
-          autofocus
-          required
-        />
-        <input type="submit" value="Enter Topic" />
-      </form>
-    </section>
-    <section>
-      Demain, dès l’aube, à l’heure où blanchit la campagne, Je partirai.
-      <br />
-      Vois-tu, je sais que tu m’attends. J’irai par la forêt, j’irai par la
-      <br />
-      montagne. Je ne puis demeurer loin de toi plus longtemps.
-    </section>
+      <section>
+        <form>
+          <input
+            type="text"
+            name="enter-poem-topic"
+            placeholder="Enter poem topic"
+            autofocus
+            required
+            class="instructions"
+          />
+          <input type="submit" value="Submit" class="enter-button" />
+        </form>
+      </section>
+
+      <section class="poem">
+        <p>
+          Demain, dès l’aube, à l’heure où blanchit la campagne, Je partirai.
+          <br />
+          Vois-tu, je sais que tu m’attends. J’irai par la forêt, j’irai par la
+          <br />
+          montagne. Je ne puis demeurer loin de toi plus longtemps.
+        </p>
+      </section>
+    </main>
     <footer>
       This AI Project is coded by
       <a href="https://www.linkedin.com/in/charlottelhm/"
