@@ -11,10 +11,6 @@ h1 {
   text-align: center;
 }
 
-p {
-  line-height: 3;
-}
-
 .container {
   margin: 80px auto;
   padding: 40px;
@@ -38,7 +34,7 @@ form {
   color: #292f36;
 }
 
-.enter-button {
+.submit-button {
   font-size: 18px;
   font-weight: 600;
   color: #292f36;
@@ -50,6 +46,7 @@ form {
 }
 
 .poem {
+  line-height: 3;
   background-color: #f7f7f7;
   border-left: 6px solid #508f8b;
   border-radius: 0 12px 12px 0;
