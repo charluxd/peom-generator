@@ -53,6 +53,10 @@ form {
   padding: 0 24px;
 }
 
+.poem em {
+  color: #508f8b;
+}
+
 footer {
   font-size: 14px;
   text-align: center;
