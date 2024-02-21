@@ -22,7 +22,7 @@ h1 {
 
 form {
   display: flex;
-  padding: 0 0 16px 0;
+  padding: 0 0 12px 0;
 }
 
 .instructions {
@@ -45,6 +45,10 @@ form {
   margin-left: 12px;
 }
 
+.hidden {
+  display: none;
+}
+
 .poem {
   line-height: 3;
   background-color: #f7f7f7;
@@ -55,6 +59,27 @@ form {
 
 .poem em {
   color: #508f8b;
+}
+
+.hints {
+  font-size: 14px;
+  color: #6a7888;
+  padding-bottom: 24px;
+}
+
+.blink {
+  animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 footer {
